@@ -4,8 +4,7 @@ import ProductItem from "./ProductItem";
 import Badge from "react-bootstrap";
 
 const ProductList = (props) => {
-  const { products , isLoading } = props.context;
-  {console.log(isLoading)}
+  const { products } = props.context;
 
   return (
     <>
