@@ -137,7 +137,7 @@ export default class App extends Component {
  console.log(user)
 
    const products = await axios.get("/products");
-   console.log(products.data.products)
+   console.log(products.data.products)  
 
     user = user ? JSON.parse(user) : null;
     cart = cart ? JSON.parse(cart) : [];
