@@ -62,7 +62,7 @@ class AddProducts extends Component {
     const { user } = this.props.context;
 
     return (
-      <>
+      <div className="appp" >
         <h4> Add Products </h4>
         <Form onSubmit={this.save}>
           <Form.Group controlId="formBasicEmail">
@@ -122,7 +122,7 @@ class AddProducts extends Component {
 
           <Button onClick={this.save}>Submit</Button>
         </Form>
-      </>
+      </div>
     );
   }
 }
