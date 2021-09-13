@@ -1,4 +1,4 @@
-import react, { Component } from "react";
+import React, { Component } from "react";
 import withContext from "../withContext";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
