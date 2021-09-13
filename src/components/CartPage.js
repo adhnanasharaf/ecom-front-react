@@ -8,7 +8,7 @@ const Cart = (props) => {
   console.log("from the cart page", cart);
 
   return (
-    <>
+    <div>
       <div className="hero is-primary">
         <div className="hero-body container">
           <h4 className="title"> Our Shopping cart</h4>
@@ -28,7 +28,7 @@ const Cart = (props) => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
