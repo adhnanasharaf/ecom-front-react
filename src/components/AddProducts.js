@@ -62,7 +62,7 @@ class AddProducts extends Component {
     const { user } = this.props.context;
 
     return (
-      <>
+      <div>
         
         <h4> Add Products </h4>
         <Form onSubmit={this.save}>
@@ -123,7 +123,7 @@ class AddProducts extends Component {
 
           <Button onClick={this.save}>Submit</Button>
         </Form>
-      </>
+      </div>
     );
   }
 }
